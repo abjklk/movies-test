@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Movie List</title>
+   <script src="https://www.gstatic.com/firebasejs/5.11.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.11.1/firebase-firestore.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="ids.css">
+</head>
+
+<body>
+	<nav class="navbar navbar-dark bg-dark">
+  <a class="navbar-brand" href="index.html">
+    <img src="icon.png" width="30" height="30" class="d-inline-block align-top" alt="">
+    Movies
+  </a>
+    <a class="btn btn-outline-success" href="about.html">About</a>
+</nav>
+	<div class="jumbotron">
+			<h1>Movies to watch!</h1>
+			<p>Enjoy the comprehensive list of movies.</p>
+      <a class="btn btn-dark" href="add.html">Add Movies</a>
+	</div>
+<div class="container">
+		<div class="controls">
+  		<div class="col-sm" style="text-align: right;">
+  		 <a class="disabled">Previous</a>
+  		</div>
+  		<div class="col-sm">
+	 		 <p style="text-align: center;">Page 1 of 1</p>
+	 	</div>
+	 	<div class="col-sm" style="text-align: left;">
+	 		<a class="disabled" >Next</a>
+	 	</div>
+	</div>
+</div> <!-- containerdiv -->
+<div id="footer" class="bg-dark text-white">
+  <p>Copyright© Gourav J 2019</p>
+</div>
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDaXoQ0Nuu-QxMT-31Emb_XJSCTxycsy50",
+    authDomain: "movies-817d8.firebaseapp.com",
+    databaseURL: "https://movies-817d8.firebaseio.com",
+    projectId: "movies-817d8",
+    storageBucket: "movies-817d8.appspot.com",
+    messagingSenderId: "817227040916",
+    appId: "1:817227040916:web:3c72655e4666ea7d"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  const db = firebase.firestore();
+</script>
+<script src="fire.js"></script>
+<script type="text/javascript" src="jquery.js"></script>
+<!-- <script type="text/javascript" src="script.js"></script> -->
+</body>
+</html>

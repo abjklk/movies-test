@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<style type="text/css">
+	body{
+		background-image: url("bg1.jpg");
+	}
+	div#content{
+		display: flex;
+	}
+	.imgr1{
+		display: flex;
+		justify-content: center;
+	}
+	.imgr2{
+		display: flex;
+		justify-content: center;
+	}
+	.imgr1 img{
+		width:220px;
+	}
+	.imgr2 img{
+		width:220px;
+	}
+	.imgr1 span {
+		padding: 40px;
+	}
+	.imgr2 span{
+		padding: 40px;
+	}
+
+	.jumbotron{
+		color:#222;
+		background-color: white;
+	}
+	h5{
+		padding-top: 20px;
+	}
+	.thumbnail {
+			  max-width: 100%;
+			  height: auto;
+			}
+
+			.row{
+				padding-top:50px;
+			}
+	#footer {
+	    position: fixed;
+	    left: 0;
+	    bottom: 0;
+	    width: 100%;
+	    font-size: 16px;
+	    text-align: right;
+	    margin-bottom: -12px;
+	    padding: 0px 20px 0px 0px;
+	}
+	.row{
+		filter:grayscale(10%);
+	}
+	</style>
+
+</head>
+<body>
+	<nav class="navbar navbar-dark bg-dark">
+  <a class="navbar-brand" href="index.html">
+    <img src="icon.png" width="30" height="30" class="d-inline-block align-top">
+    Movies
+  </a>
+    <button class="btn btn-outline-success" type="button">About</button>
+	</nav>
+	<div class="jumbotron">
+		<h1>About this page...</h1>
+
+		<div id="content">
+		<span>
+		<h5>This website is made of static web pages and assets with focus only on the front-end.
+			</h5>
+			<h5><span style="color: red;font-weight: bold;">Update:</span> Added Dynamic-ness. Thanks to Firebase & Cloud Firestore.</h5><h5>This site is built using the following languages, tools, frameworks, database and libraries.</h5>
+		</span>
+		<span>
+					<a href="https://firebase.com">
+						<img class="thumbnail" width="500px" src="logo-built_white.png">
+					</a>
+		</span>
+		</div>
+
+		<div class="imgr1">
+					<span>
+						<a href="https://en.wikipedia.org/wiki/HTML">
+							<img class="thumbnail" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/CSS3_and_HTML5_logos_and_wordmarks.svg/791px-CSS3_and_HTML5_logos_and_wordmarks.svg.png">
+						</a>
+					</span>
+					<span>
+						<a href="https://en.wikipedia.org/wiki/JavaScript">
+							<img class="thumbnail" src="js.png">
+						</a>
+					</span>
+					<span>
+						<a href="https://jquery.com/">
+							<img class="thumbnail" src="https://vignette.wikia.nocookie.net/howtoprogram/images/9/93/JQuery.png/revision/latest?cb=20130423012006">
+						</a>
+					</span>
+
+				</div>
+				<div class="imgr2">
+					<span>
+						<a href="https://getbootstrap.com/">
+							<img class="thumbnail" src="http://pluspng.com/img-png/bootstrap-png-bootstrap-512.png">
+						</a>
+					</span>
+					<span>
+						<a href="https://www.sublimetext.com/">
+							<img class="thumbnail" src="https://upload.wikimedia.org/wikipedia/en/d/d2/Sublime_Text_3_logo.png">
+						</a>
+					</span>
+					<span>
+						<a href="https://developers.google.com/web/tools/chrome-devtools/">
+							<img class="thumbnail" src="https://pbs.twimg.com/profile_images/1111670607026884609/ma2jqJKH_400x400.png">
+						</a>
+					</span>
+					<span>
+						<a href="https://jquery.com/">
+							<img class="thumbnail" src="https://www.themoviedb.org/assets/2/v4/logos/primary-green-d70eebe18a5eb5b166d5c1ef0796715b8d1a2cbc698f96d311d62f894ae87085.svg">
+						</a>
+					</span>
+				</div>
+   		</div>
+
+<div id="footer" class="bg-dark text-white">
+  <p>Copyright© Gourav J 2018</p>
+</div>
+</body>
+</html>
