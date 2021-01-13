@@ -22,6 +22,15 @@
 p{
   font-family: 'Nunito Sans', sans-serif;
 }
+/*div#tvd {
+    height: 200px;
+    width: 400px;
+}*/
+
+div#s {
+    display: flex;
+    margin-top: 20%;
+}
 .hovereffect .overlay {
   width: 100%;
   height: 100%;
@@ -98,6 +107,16 @@ p{
   -webkit-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
 }
+#tv{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+#tvr{
+  margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
 
 #footer {
     position: fixed;
@@ -122,8 +141,9 @@ p{
 </nav>
 <div class="container" style="padding-bottom:10%;">
 
-	<div class="row" style="padding-top:25%;">
-		<div class="col-lg-6">
+	<!-- <div class="row" style="padding-top:25%;" -->
+	<div id="s">
+  	<div class="col-lg-6">
    			<div class="hovereffect">
 	       		 <img class="img-responsive" src="http://cdn1us.denofgeek.com/sites/denofgeekus/files/styles/main_wide/public/2016/09/justice-league-movie-team-photo.jpg?itok=v-pJJGKS" alt="">
 	       	     <div class="overlay">
@@ -147,6 +167,21 @@ p{
    		  </div>
   	 	</div>
 	</div>
+<div  id="tvr">
+  <div></div>
+      <div id="tvd">
+        <div class="hovereffect">
+           <img class="img-responsive" src="tv.png" >
+              <div class="overlay">
+                   <h2></h2>
+            <p>
+              <a href="tv.html" style="font-size: 25px;">TV Shows</a>
+            </p>
+              </div>
+        </div>
+      </div>
+      <div></div>
+</div>
 </div>
 <div id="footer" class="bg-dark text-white">
   <p>Copyright© Gourav J 2018</p>
